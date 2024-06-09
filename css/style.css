@@ -1,0 +1,67 @@
+@import url('reset.css');
+
+body {
+    margin: 0;
+    background: #FFFFFF;
+}
+.container {
+    width :500px;
+    height:656px;
+    margin: 0 auto;
+}
+form {
+    box-sizing: border-box;
+    padding: 50px 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: center;
+}
+span {
+    list-style: 16px;
+    color: #3D3D3D;
+}
+.registration {
+    color: #46A358;
+}
+.text-form {
+    font-size: 13px;
+    color: #3D3D3D;
+    margin-top: 40px;
+    
+}
+input {
+    padding: 12px 14px;
+    width: 100%;
+    margin-top: 16px;
+}
+.button {
+    width: 300px;
+    height: 45px;
+    background: #46A358;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+}
+.text_regis {
+    text-align: center;
+    margin: 36px;
+}
+a {
+    text-decoration: none;
+}
+.google, .facebook {
+    width: 300px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 7px;
+    display: block;
+}
