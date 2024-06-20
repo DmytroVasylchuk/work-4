@@ -163,3 +163,44 @@ a {
     width: 35%;
     display: inline-block;
 }
+
+.page {
+    background: orange;
+}
+.aside {
+    background: #fbfbfb;
+    width: 310px;
+    float: left;
+    padding: 14px 18px 0;
+}
+.aside-list {
+    min-height: 774px;
+}
+.aside-img {
+    margin: 0 -18px;
+}
+.main {
+    width: 800px;
+    float: right;
+}
+.products {
+}
+.products-sort {
+}
+.products-sort-list {
+}
+.products-filtr {
+}
+.products-cards {
+    margin: 0 -15px;
+}
+.products-card {
+    width: 33.333%;   
+    float: left;
+    padding: 0 30px;
+}
+.products-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
