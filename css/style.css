@@ -1,11 +1,35 @@
 @import url('reset.css');
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/monserat/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('///fonts/monserat/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/monserat/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
     margin: 0;
+    font-family: 'Montserrat';
     background: #FFFFFF;
 }
 .in-container {
-    width :500px;
+    width:500px;
     height:656px;
     margin: 0 auto;
 }
@@ -87,7 +111,7 @@ a {
 }
 .header-list {
     margin-top: 10px;
-    width: 950px;
+    width: 945px;
     text-align: center;
 }
 .header-list li {
@@ -105,7 +129,7 @@ a {
     cursor: pointer;
 }
 .header-btn {
-    width: 100px;
+    width: 105px;
     padding: 8px 17px 7px;
     background: #46A358;
     border-radius: 6px;
@@ -166,6 +190,10 @@ a {
 
 .page {
     background: orange;
+    color: #3D3D3D;
+}
+.page a{
+    color: #3D3D3D;
 }
 .aside {
     background: #fbfbfb;
@@ -173,8 +201,17 @@ a {
     float: left;
     padding: 14px 18px 0;
 }
+.aside h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 .aside-list {
     min-height: 774px;
+}
+.aside-list li {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 .aside-img {
     margin: 0 -18px;
@@ -184,12 +221,33 @@ a {
     float: right;
 }
 .products {
+    color: #3D3D3D;
+}
+.products a{
+    color: #3D3D3D;
 }
 .products-sort {
+    margin-bottom: 30px;
+}
+.products-sort a{
+    display: inline;
+}
+.products-sort li {
+    display: inline;
+    margin-right: 35px;
 }
 .products-sort-list {
+    display: inline;
+    margin-right: 8px;
 }
+.products-sort-list :first-child a{ 
+    color: #46A358;
+    border-bottom: 4px solid #46A358;
+    font-weight: bold;
+  }
 .products-filtr {
+    display: inline;
+    float: right;
 }
 .products-cards {
     margin: 0 -15px;
